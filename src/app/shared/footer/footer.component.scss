@@ -1,0 +1,75 @@
+@import "./../../../variables.scss";
+
+footer {
+  color: $LightestSlate;
+
+  .footer-left-bar:after,
+  .footer-right-bar:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: $LightestSlate;
+  }
+
+  .footer-left-bar li {
+    list-style: none;
+  }
+
+  .footer-left-bar {
+    position: fixed;
+    bottom: -16px;
+    left: 51px;
+    padding: 0;
+    li {
+      margin: 20px 0px;
+      &:last-of-type {
+        margin-bottom: 33px;
+      }
+    }
+  }
+
+  .footer-right-bar {
+    position: fixed;
+    bottom: 0px;
+    right: 41px;
+    padding: 0;
+
+    a {
+      font-family: $CodeFont;
+      font-size: 12px;
+      letter-spacing: 0.1em;
+      -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+      margin: 20px auto;
+      padding: 10px;
+      color: $LightestSlate;
+    }
+  }
+  .footer-credits {
+    font-family: $CodeFont;
+    font-size: 12px;
+    line-height: 1;
+    width: 100%;
+
+    position: fixed;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    a {
+      color: $LightestSlate;
+      -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+      transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        color: $pink;
+      }
+    }
+  }
+}
