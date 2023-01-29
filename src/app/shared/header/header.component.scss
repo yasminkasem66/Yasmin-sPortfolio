@@ -50,6 +50,7 @@
       }
     }
   }
+
   .aside-show {
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     right: 0px;
@@ -288,7 +289,7 @@
   border-radius: 7px !important;
   background: #ccd6f6 !important;
   margin-top: 10px !important;
-  left: 20px !important;
+  width: 115px !important;
   box-shadow: 0 10px 30px -15px rgb(2 12 27 / 70%);
 }
 

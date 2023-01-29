@@ -1,7 +1,7 @@
-<nav [@animateMenu] class="navbar main-navbar on-top" [class.nav-shadow]='this.pageYPosition>0'>
+<nav [@animateMenu] class="navbar main-navbar on-top mb-4" [class.nav-shadow]='this.pageYPosition>0'>
     <div class="container">
         <a class="navbar-brand text-light" [routerLink]="'inicio'">
-            <img src='assets/images/logo.png' width='90' />
+            <img src='assets/images/logo.png' width='50' />
         </a>
         <ul ngbNav #nav="ngbNav" class="menu-ul">
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
@@ -71,7 +71,7 @@
         <div class="menu-wrapper" (click)='responsiveMenuVisible = !responsiveMenuVisible'>
             <div [class.animate]='responsiveMenuVisible' class="hamburger-menu"></div>
         </div>
-        <div class="menu-responsive" [ngStyle]="{'pointer-events': !responsiveMenuVisible ? 'none' : '' }">
+        <div dir="auto" class="menu-responsive" [ngStyle]="{'pointer-events': !responsiveMenuVisible ? 'none' : '' }">
             <aside [class.aside-show]='responsiveMenuVisible' [class.nav-shadow]='this.pageYPosition>0' class="on-top">
                 <nav>
                     <ol>
@@ -102,7 +102,7 @@
                         </li>
                         <li>
                             <div class="language-container">
-                                <div (click)='changeLanguage("es",false)'
+                                <div (click)='changeLanguage("ar",false)'
                                     style='border-bottom-left-radius: 0px !important;border-bottom-right-radius: 0px !important;'
                                     class="language-container language-container-selector active"
                                     [class.active]='languageFormControl.value == "es"'>

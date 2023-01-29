@@ -54,12 +54,11 @@ footer {
     line-height: 1;
     width: 100%;
 
-    position: fixed;
-    bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: -60px;
     a {
       color: $LightestSlate;
       -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);

@@ -5,16 +5,18 @@
   "Header.Item4": "تواصل معي",
   "Header.cvBtn": "السيره الذاتيه",
   "Header.cvName": "ياسمين قاسم.pdf",
-  "Banner.Pretitle": "Hola! Mi nombre es",
   "English": "انجليزي",
   "Arabic": "عربي",
-  "Banner.Description": "Tengo <span class='underline'>4 años de experiencia</span> desarrollando sistemas, interfaces, bots y soluciones tecnológicas para hacer de la web un lugar mejor. Me dedico a escribir y refactorizar código limpio, reutilizable y escalable en <span class='underline'>Angular</span> y en ocaciones en <span class='underline'>Laravel</span> aplicando buenas practicas y estandares de desarrollo.",
-  "Banner.ActionBtn": "Saludame",
+  "Banner.Pretitle": "مرحبا!",
+  "Banner.name": "ياسمين قاسم",
+  "Banner.job": "مطور واجهات أمامية",
+  "Banner.Description": "عندي <span class='underline'>خبره اربع سنوات</span> في بناء الأنظمه الأماميه, وواجهات المستخدم, وتقديم حلول تكنولوجيه لجعل الويب عالم أفضل.مجتهده وأسعي دائما لكتابة كود جيد قابل للأستخدام مره أخري وسهل الأستخدام للأخرين بأستخدام, <span class='underline'>أنجلر</span> وأحياناً <span class='underline'>ريأكت</span> وجافا سكريبت.",
+  "Banner.ActionBtn": "تواصل معنا",
   "AboutMe.Title": "Acerca de mi",
   "AboutMe.Paragraphs": [
-    "En mis <span class='underline'>4 años como desarrollador</span> busco capacitarme cada día. Al mismo tiempo he trabajado escribiendo <span class='underline'>pruebas unitarias</span>, realizando <span class='underline'>integración continua</span> y también cubriendo roles de backend developer con <span class='underline'>Laravel y Mysql</span>. También he liderado equipos teniendo empatía, ejerciendo motivación a compañeros y estableciendo planes y metas en conjunto.",
-    "Mis capacidades también incluyen implementar mejoras en sistemas, optimizar sitios, estandarizar patrones y sugerir y ejecutar ideas que añadan valor al proyecto en el que este trabajando.",
-    "Algunas de las tecnologías en las que me he capacitado y trabajado incluyen (pero no se limitan) a:"
+    "In my <span class='underline'>4 years as a developer</span>, I seek to train every day. I have worked writing <span class='underline'>unit tests</span>, <span class='underline'>performing continuous integration</span>, and covering backend developer roles with <span class='underline'>Laravel and Mysql</span>. I have led teams having empathy, exercising motivation to partners, and setting plans and goals together.",
+    "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
+    "Some of the technologies that I have trained and worked on include (but are not limited to):"
   ],
   "Experience.Title": "Experiencia",
   "Experience.Jobs": [
